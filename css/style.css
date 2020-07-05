@@ -1,0 +1,235 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a {
+  display: inline-block;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1181px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin-top: 53px;
+}
+
+.header__logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header__logo-link > span {
+  margin-left: 25px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #202020;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  margin-top: 76.5px;
+}
+
+.header__list li{
+  list-style: none;
+}
+
+.header__list .header__item{
+  list-style: none;
+  margin-left: 38px;
+}
+
+.header__list li a{
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #202020;
+  text-decoration: none;
+}
+
+.header__list button {
+  padding: 2.5px 13px 4.5px 14px;
+  background: #5528FF;
+  border-radius: 5px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header__content {
+  margin-top: 132px;
+}
+
+.header__content h1 {
+  margin-top: 132px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 57px;
+  line-height: 65px;
+  color: #202020;
+}
+
+.header__content p {
+  margin-top: 35px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 51px;
+  color: #4F4F4F;
+}
+
+.header__content button {
+  margin-top: 70px;
+  background: #5528FF;
+  border-radius: 10px;
+  padding: 16px 58px 11px 58px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.services_top {
+  border-top: 1px solid #C2C2C2;
+}
+
+.services {
+  margin-top: 111px;
+ 
+  position: relative;
+}
+
+.services h2 {
+    position: absolute;
+    top: -13px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B2B2B2;
+    padding: 5px 25px 5px 15px;
+    text-transform: uppercase;
+    background-color: #fff;
+  }
+
+.services__block {
+    padding-top: 108.5px;
+    padding-bottom: 108.5px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+.services__item h3 {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.services__item p {
+  margin-top: 17px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #B2B2B2;
+  max-width: 310px;
+}
+
+.services__item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services__img{
+  flex-basis: 100px;
+  text-align: center;
+  margin-right: 40px;
+}
+
+
+.services__item_top {
+  margin-top: 82px;
+}
+
+.services__text {
+  flex-basis: calc(100% - 100px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ubuntu-regular - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
+       url('../fonts/ubuntu-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/ubuntu-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* ubuntu-700 - latin */
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
+       url('../fonts/ubuntu-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/ubuntu-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
